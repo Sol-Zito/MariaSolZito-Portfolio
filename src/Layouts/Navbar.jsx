@@ -1,20 +1,20 @@
 import { CONTENT } from "../constants";
 import { useState } from "react";
-import close from '../assets/images/close.svg'
-import menu from '../assets/images/menu.svg'
+import close from "../assets/images/close.svg";
+import menu from "../assets/images/menu.svg";
 import Logo from "../components/Logo";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const { navs } = CONTENT
+  const { navs } = CONTENT;
 
   return (
-    <nav className="w-full z-10 flex justify-between items-center absolute left-0 top-0 bg-transparent">
+    <nav className="w-full z-10 grid grid-flow-col justify-between items-center relative bg-secondaryLinear">
       {/* Logo */}
       <Logo />
 
       {/* List of links */}
-      <ul className="list-none md:flex hidden justify-end items-center flex-1">
+      <ul className="list-none md:flex hidden justify-end items-center flex-1 py-5">
         {navs.map((nav, index) => (
           <li
             key={nav.link}
@@ -22,9 +22,11 @@ const Navbar = () => {
             font-semibold
             cursor-pointer
             text-[16px]
-            hover:text-[#5b86cd] sm:mr-6 text-dark_primary`}
+            hover:text-[#5b86cd] sm:mr-6 text-white`}
           >
-            <a key={nav.link+index} href={`${nav.link}`}>{nav.title}</a>
+            <a key={nav.link + index} href={`${nav.link}`}>
+              {nav.title.toLocaleUpperCase()}
+            </a>
           </li>
         ))}
       </ul>
@@ -54,9 +56,11 @@ const Navbar = () => {
                 text-center
                 ${index === navs.length - 1 ? "mb-0" : "mb-4"}
                 text-white w-full`}
-                onClick={()=>setToggle(!toggle)}
+                onClick={() => setToggle(!toggle)}
               >
-                <a key={`${nav.link} ${index} mobile`} href={`${nav.link}`}>{nav.title}</a>
+                <a key={`${nav.link} ${index} mobile`} href={`${nav.link}`}>
+                  {nav.title.toUpperCase()}
+                </a>
               </li>
             ))}
           </ul>

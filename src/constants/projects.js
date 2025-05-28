@@ -56,7 +56,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: "project-1",
+    id: "project-2",
     title: "Salud Dentist",
     github: "https://github.com/Sol-Zito/ecommerce-sz.git",
     link: "https://salud-dentist-solzitos-projects.vercel.app",
@@ -107,7 +107,7 @@ export const PROJECTS = [
     ],
   },
   {
-    id: "project-2",
+    id: "project-5",
     title: "Bank",
     github: "https://sudhanva-nadiger.github.io/Modern_Bank_App/index.html",
     link: "https://sudhanva-nadiger.github.io/Modern_Bank_App/index.html",
@@ -142,17 +142,17 @@ export const PROJECTS = [
         name: "React",
       },
       {
-        id: "icon-1",
+        id: "icon-2",
         icon: SiTypescript,
         name: "Typescript",
       },
       {
-        id: "icon-1",
+        id: "icon-3",
         icon: SiHtml5,
         name: "Html",
       },
       {
-        id: "icon-2",
+        id: "icon-4",
         icon: SiCss3,
         name: "CSS",
       },

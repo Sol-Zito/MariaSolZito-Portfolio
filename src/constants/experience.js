@@ -4,8 +4,8 @@ import {
   SiGithub,
   SiGooglefonts,
   SiHtml5,
-  SiKeycloak,
   SiMaterialdesign,
+  SiNextdotjs,
   SiReact,
   SiSpringboot,
   SiTailwindcss,
@@ -27,7 +27,6 @@ import {
 import { BsBootstrap, BsTrello } from "react-icons/bs";
 import { FaFontAwesome } from "react-icons/fa";
 import { BiCalendar } from "react-icons/bi";
-import { RiNextjsFill } from "react-icons/ri";
 
 export const EXPERIENCES = [
   {
@@ -128,7 +127,7 @@ export const EXPERIENCES = [
             tech: [
               {
                 id: "f-1",
-                icon: RiNextjsFill,
+                icon: SiNextdotjs,
                 name: "Next.js",
               },
               {
@@ -163,7 +162,7 @@ export const EXPERIENCES = [
               },
               {
                 id: "f-8",
-                icon: SiKeycloak,
+                icon: "",
                 name: "Keycloak",
               },
             ],

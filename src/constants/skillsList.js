@@ -3,7 +3,6 @@ import { BsFileExcel } from "react-icons/bs";
 import { DiVisualstudio } from "react-icons/di";
 import { FaJava, FaNodeJs } from "react-icons/fa";
 import { PiMicrosoftPowerpointLogo } from "react-icons/pi";
-import { RiNextjsLine } from "react-icons/ri";
 import {
   SiAngular,
   SiBootstrap,
@@ -16,6 +15,7 @@ import {
   SiJquery,
   SiMaterialdesign,
   SiMysql,
+  SiNextdotjs,
   SiPostman,
   SiPython,
   SiReact,
@@ -98,7 +98,7 @@ export const SKILLS_LIST = [
       },
       {
         id: "f-4",
-        icon: RiNextjsLine,
+        icon: SiNextdotjs,
         name: "Next.js",
       },
       {

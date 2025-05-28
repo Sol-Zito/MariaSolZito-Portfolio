@@ -40,7 +40,7 @@ const Content = ({ text, link, tech }) => {
                   index={index}
                   className="text-dimWhite text-[20px] hover:text-text_h tooltip"
                 >
-                  {React.createElement(tech.icon)}
+                  {tech.icon ? <>{React.createElement(tech.icon)}</> : ""}
                   <span className="tooltiptext">{tech.name}</span>
                 </span>
               ))}

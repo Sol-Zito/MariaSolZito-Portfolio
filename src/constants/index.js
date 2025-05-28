@@ -1,60 +1,58 @@
-import Hero_person from "../assets/images/Hero/main_comp.json";
+import animada from "../assets/images/Hero/animada1.png";
 
-export { SOCIAL_MEDIA } from './socialMedia';
-export { SKILLS_LIST } from './skillsList';
-export { EXPERIENCES } from './experience';
-export { EDUCATION_LIST } from './education';
-export { PROJECTS } from './projects';
-export { OPEN_SOURCE_CONTRIBUTIONS } from './openSource';
+export { SOCIAL_MEDIA } from "./socialMedia";
+export { SKILLS_LIST } from "./skillsList";
+export { EXPERIENCES } from "./experience";
+export { EDUCATION_LIST } from "./education";
+export { PROJECTS } from "./projects";
+export { COURSES } from "./courses";
 
-export const RESUME_LINK = "https://drive.google.com/file/d/1fAlHoNfCHkJCkmcpGFzbanTZorT2r2U_/view";
-export const REPO_LINK = "https://github.com/Sudhanva-Nadiger/Portfolio";
+export const RESUME_LINK =
+  "https://drive.google.com/file/d/1S5OTmCQXCoCClmp7wliKIhSiK1OA_DKa/view";
 
 export const CONTENT = {
-    navs: [
-        {
-            link: "#skills",
-            title: "Skills & Experience",
-        },
-        {
-            link: "#education",
-            title: "Education",
-        },
-        {
-            link: "#projects",
-            title: "Projects",
-        },
-        {
-            link: "#openSrc",
-            title: "Open Source",
-        },
-        {
-            link: "#contact",
-            title: "Contact Me",
-        },
+  navs: [
+    {
+      link: "#skills",
+      title: "Skills & Experience",
+    },
+    {
+      link: "#education",
+      title: "Education",
+    },
+    {
+      link: "#Courses",
+      title: "Courses",
+    },
+    {
+      link: "#projects",
+      title: "Projects",
+    },
+    {
+      link: "#contact",
+      title: "Contact Me",
+    },
+  ],
+  hero: {
+    title: `Hi,`,
+    sub1: "I'm",
+    firstName: "MARIA SOL",
+    LastName: "ZITO",
+    image: animada,
+    hero_content: [
+      {
+        count: "",
+        text: "Developer based in Argentina. Software Development Engineer.",
+      },
     ],
-    hero: {
-        title: `Hello,`,
-        sub1: "there",
-        sub2: "I am",
-        firstName: "SUDHANVA",
-        LastName: "NADIGER",
-        image: Hero_person,
-        hero_content: [
-            {
-                count: "",
-                text: "Developer based in India. Software Development Engineer.",
-            },
-        ],
-    },
-
-    Footer: {
-        text: "All © Copy Right Reserved 2023",
-    },
+  },
+  Footer: {
+    text: "Made with ❤️ ©2025",
+  },
 };
 
 export const ABOUT_ME = {
-    name: "Sudhanva Nadiger",
-    tagLine: "Insanely ambitious coder | SDE-1 @Flipkart | Ex-SWE intern @Appleute | Open source contributor",
-    intro: CONTENT.hero.hero_content.text
+  name: "Maria Sol Zito",
+  tagLine: "FullStack Developer | Data Analyst ",
+  intro: CONTENT.hero.hero_content.text,
 };

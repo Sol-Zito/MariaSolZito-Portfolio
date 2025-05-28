@@ -14,8 +14,11 @@ module.exports = {
     extend: {
       colors: {
         dark_primary: "#06223F",
-        bg_light_primary : "#F5F9FD",
+        bg_light_primary: "#F5F9FD",
         light_secondary: "#8f8d8d",
+        secondaryLinear: "#B6CCF5",
+        text_light: "#caddf7",
+        text_h: "#a8b6f1",
       },
       backgroundImage: {
         secondaryLinear: "linear-gradient(360deg, #43698f , #B6CCF5 200%)",
@@ -26,12 +29,12 @@ module.exports = {
         primary: "-5px 35px 40px rgba(223, 229, 236, 0.9)",
       },
       screens: {
-        'xs': '315px',
-        'tablet': '756px',
-        'laptop': '870px',
-        'custom-MediaQuery1': '795px',
+        xs: "315px",
+        sm: "425px",
+        tablet: "756px",
+        laptop: "870px",
+        "custom-MediaQuery1": "795px",
       },
-
     },
   },
   plugins: [],

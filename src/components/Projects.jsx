@@ -9,7 +9,7 @@ const Project = (props) => {
     <motion.div
       className="proj feature-card hover:text-white px-12 py-8 transition-colors duration-300 transform border rounded-xl hover:border-transparent group dark:border-gray-700 dark:hover:border-transparent"
       whileInView={{ y: [-40, 0], opacity: [0, 1] }}
-      transition={{ duration: 1, type: 'spring', stiffness: "120" }}
+      transition={{ duration: 1, type: "spring", stiffness: "120" }}
     >
       <div className="flex flex-col sm:-mx-4 sm:flex-row">
         <img
@@ -33,7 +33,7 @@ const Project = (props) => {
                   index={index}
                   className="text-dimWhite text-[20px] hover:text-[#8dbbeb] tooltip"
                 >
-                  {React.createElement(tech.icon)}
+                  <tech.icon />
                   <span className="tooltiptext">{tech.name}</span>
                 </span>
               ))}
@@ -42,9 +42,7 @@ const Project = (props) => {
         </div>
       </div>
 
-      <p className="mt-8 p font-poppins text-[#414551]">
-        {props.content}
-      </p>
+      <p className="mt-8 p font-poppins text-[#414551]">{props.content}</p>
 
       <div className="flex mt-4 -mx-2">
         {props.github ? (
@@ -74,10 +72,10 @@ const Project = (props) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-secondaryLinear sm:px-16 px-6 py-4" >
+    <section id="projects" className="bg-secondaryLinear sm:px-16 px-6 py-4">
       <motion.div
-       whileInView={{ y: [-20, 0], opacity: [0, 1] }}
-       transition={{ duration: 1, type: 'spring', stiffness:"120"}}
+        whileInView={{ y: [-20, 0], opacity: [0, 1] }}
+        transition={{ duration: 1, type: "spring", stiffness: "120" }}
       >
         <h1 className="flex-1 font-Poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
           Projects

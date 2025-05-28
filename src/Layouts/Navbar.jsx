@@ -9,7 +9,10 @@ const Navbar = () => {
   const { navs } = CONTENT;
 
   return (
-    <nav className="w-full z-10 grid grid-flow-col justify-between items-center relative bg-secondaryLinear">
+    <nav
+      id="navbar"
+      className="w-full z-10 grid grid-flow-col justify-between items-center relative bg-secondaryLinear"
+    >
       {/* Logo */}
       <Logo />
 

@@ -21,7 +21,7 @@ export const CONTENT = {
       title: "Education",
     },
     {
-      link: "#Courses",
+      link: "#courses",
       title: "Courses",
     },
     {

@@ -8,11 +8,11 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Loading from "./components/Loading";
 const Projects = lazy(() => import("./components/Projects"));
-const OpenSource = lazy(() => import("./components/OpenSource"));
 import Experience from "./components/Experience";
+import Courses from "./components/Courses";
+import ButtonTop from "./components/ButtonTop";
 
 const App = () => {
-
   useEffect(() => {
     Aos.init({
       duration: 1800,
@@ -24,10 +24,7 @@ const App = () => {
   return (
     <Suspense fallback={<Loading />}>
       <div className="overflow-hidden">
-        <div className={`sm:px-16 px-6 flex justify-center items-center`}>
-            <Navbar />
-        </div>
-
+        <Navbar />
         <div className={`flex justify-center items-start w-full`}>
           <Hero />
         </div>
@@ -36,9 +33,10 @@ const App = () => {
           <Experience />
         </div>
         <Education />
+        <Courses />
         <Projects />
-        <OpenSource />
         <Footer />
+        <ButtonTop />
       </div>
     </Suspense>
   );

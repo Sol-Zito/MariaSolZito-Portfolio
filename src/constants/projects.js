@@ -1,6 +1,5 @@
 import bank from "../assets/images/Projects/bank.jpg";
 import bookmark from "../assets/images/Projects/bookmark.jfif";
-import expenseTracker from "../assets/images/Projects/expense-tracker.png";
 import keepNotes from "../assets/images/Projects/keepNotes.png";
 import movieLand from "../assets/images/Projects/movieLand.jfif";
 import portfolio from "../assets/images/Projects/portfolio.jpg";
@@ -109,7 +108,7 @@ export const PROJECTS = [
   },
   {
     id: "project-2",
-    title: "Bank Landing Page",
+    title: "Bank",
     github: "https://sudhanva-nadiger.github.io/Modern_Bank_App/index.html",
     link: "https://sudhanva-nadiger.github.io/Modern_Bank_App/index.html",
     image: bank,
@@ -132,7 +131,7 @@ export const PROJECTS = [
     id: "project-3",
     title: "Keep Notes",
     github: "https://github.com/Sol-Zito/ListaDeTareas.git",
-    link: "https://lista-de-tareas-solzitos-projects.vercel.app/",
+    link: "",
     image: keepNotes,
     content:
       "A progressive note taking application developed using React and CSS. ",
@@ -161,7 +160,7 @@ export const PROJECTS = [
   },
   {
     id: "project-4",
-    title: "Movie Land",
+    title: "Movies",
     github: "https://github.com/Sol-Zito/movieWithReact.git",
     link: "",
     image: movieLand,

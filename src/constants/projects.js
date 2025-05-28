@@ -24,7 +24,7 @@ export const PROJECTS = [
     id: "project-1",
     title: "Personal Portfolio",
     github: "https://github.com/Sol-Zito",
-    link: "",
+    link: "https://maria-sol-zito-portfolio-git-main-solzitos-projects.vercel.app/",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
     stack: [

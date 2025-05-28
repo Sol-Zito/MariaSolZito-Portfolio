@@ -1,11 +1,14 @@
+import React from "react";
 import { SKILLS_LIST } from "../constants";
 import { motion } from "framer-motion";
 
-export const SkillIcon = ({ icon, name, styles }) => {
+export const SkillIcon = ({ icon, name }) => {
   return (
-    <div className={`flex flex-col`}>
-      <span className={`hover:text-[#a8b6f1] ${styles ?? ""}`}>{<icon />}</span>
-      <p className="font-poppins text-[#caddf7] text-[12px] mt-2">{name}</p>
+    <div className="flex flex-col items-center hover:shadow-xl">
+      <span className="text-[30px] text-white">
+        {React.createElement(icon)}
+      </span>
+      <p className="font-poppins text-text_light text-[12px] mt-2">{name}</p>
     </div>
   );
 };
@@ -28,12 +31,7 @@ const SkillCard = (props) => {
       <br />
       <div className="grid grid-cols-3 gap-8 ml-8">
         {items.map((item, index) => (
-          <SkillIcon
-            key={item.id + index}
-            index={index}
-            {...item}
-            styles={"text-[30px] text-white"}
-          />
+          <SkillIcon key={item.id + index} index={index} {...item} />
         ))}
       </div>
     </motion.div>

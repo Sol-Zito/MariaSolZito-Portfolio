@@ -1,14 +1,13 @@
-import bank from "../assets/images/Projects/bank.jpg";
 import bookmark from "../assets/images/Projects/bookmark.jfif";
 import keepNotes from "../assets/images/Projects/keepNotes.png";
 import movieLand from "../assets/images/Projects/movieLand.jfif";
 import portfolio from "../assets/images/Projects/portfolio.jpg";
 import salud from "../assets/images/Projects/salud.png";
+import Bytech from "../assets/images/Experience/Bytech.png";
 
 import {
   SiCss3,
-  SiDart,
-  SiFlutter,
+  SiFigma,
   SiHtml5,
   SiReact,
   SiSpringboot,
@@ -108,28 +107,24 @@ export const PROJECTS = [
   },
   {
     id: "project-5",
-    title: "Bank",
-    github: "https://sudhanva-nadiger.github.io/Modern_Bank_App/index.html",
-    link: "https://sudhanva-nadiger.github.io/Modern_Bank_App/index.html",
-    image: bank,
+    title: "Bytech",
+    github:
+      "https://www.figma.com/design/kAGT45ZKaJHl5RFKLhjpl7/ByTech?node-id=0-1&p=f&t=VNlpL8mrqQj3eIyr-0",
+    link: "https://www.figma.com/design/kAGT45ZKaJHl5RFKLhjpl7/ByTech?node-id=0-1&p=f&t=VNlpL8mrqQj3eIyr-0",
+    image: Bytech,
     content:
-      "A landing page for a bank with modern UI/UX using React and Tailwind.",
+      "Figma was used to design the website of a company dedicated to the sale of electronic products.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: SiFigma,
+        name: "Figma",
       },
     ],
   },
   {
     id: "project-3",
-    title: "Keep Notes",
+    title: "Notes",
     github: "https://github.com/Sol-Zito/ListaDeTareas.git",
     link: "",
     image: keepNotes,

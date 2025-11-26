@@ -36,7 +36,7 @@ export const EXPERIENCES = [
     positions: [
       {
         title: "Designer UX/UI",
-        duration: "April 2025 - current",
+        duration: "April 2025 - Jul 2025",
         content: [
           {
             text: "I have worked on optimizing the digital experience for a client located in Argentina. For this client, I have Created initial layouts to define the interface architecture. Applied styles, colors, and graphic components aligned with the client's brand identity. Evaluated the user experience through testing and ongoing adjustments. For the development of the project, I used specialized tools such as Figma, Adobe Colors, and other essential tools for digital experience design. The methodology adopted was agile, allowing for rapid iterations and continuous improvements based on client and end-user feedback.",

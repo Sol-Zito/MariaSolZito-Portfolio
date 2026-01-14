@@ -53,7 +53,9 @@ const Education = () => {
           <Lottie options={defaultOptions} />
         </div>
 
-        <div className={`flex-1 flex flex-col justify-center items-start`}>
+        <div
+          className={`grid lg:grid-cols-2 sm:grid-cols-1 justify-center items-start`}
+        >
           {EDUCATION_LIST.map((feature, index) => (
             <FeatureCard key={feature.id} index={index} {...feature} />
           ))}

@@ -20,6 +20,37 @@ import { FaAngular } from "react-icons/fa";
 
 export const PROJECTS = [
   {
+    id: "project-5",
+    title: "App Fitness",
+    github: "https://github.com/Sol-Zito",
+    link: "https://github.com/Sol-Zito/AgusFit",
+    image: portfolio,
+    content:
+      "A React and TypeScript application that offers training programs, personalized routines, explanatory videos, meal plans, and tips for a healthy lifestyle. Ideal for those looking to improve their physical well-being with clear, dynamic tools tailored to their goals.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS",
+      },
+      {
+        id: "icon-3",
+        icon: SiTypescript,
+        name: "Typescript",
+      },
+      {
+        id: "icon-4",
+        icon: SiCss3,
+        name: "CSS",
+      },
+    ],
+  },
+  {
     id: "project-1",
     title: "Personal Portfolio",
     github: "https://github.com/Sol-Zito",

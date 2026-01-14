@@ -2,6 +2,7 @@ import bookmark from "../assets/images/Projects/bookmark.jfif";
 import keepNotes from "../assets/images/Projects/keepNotes.png";
 import movieLand from "../assets/images/Projects/movieLand.jfif";
 import portfolio from "../assets/images/Projects/portfolio.jpg";
+import fitness from "../assets/images/Projects/sport-elements.jpg";
 import salud from "../assets/images/Projects/salud.png";
 import Bytech from "../assets/images/Experience/Bytech.png";
 
@@ -24,7 +25,7 @@ export const PROJECTS = [
     title: "App Fitness",
     github: "https://github.com/Sol-Zito",
     link: "https://github.com/Sol-Zito/AgusFit",
-    image: portfolio,
+    image: fitness,
     content:
       "A React and TypeScript application that offers training programs, personalized routines, explanatory videos, meal plans, and tips for a healthy lifestyle. Ideal for those looking to improve their physical well-being with clear, dynamic tools tailored to their goals.",
     stack: [

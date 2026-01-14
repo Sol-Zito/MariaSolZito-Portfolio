@@ -33,8 +33,8 @@ const App = () => {
           <Experience />
         </div>
         <Education />
-        <Courses />
         <Projects />
+        <Courses />
         <Footer />
         <ButtonTop />
       </div>

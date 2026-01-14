@@ -21,12 +21,12 @@ export const CONTENT = {
       title: "Education",
     },
     {
-      link: "#courses",
-      title: "Courses",
-    },
-    {
       link: "#projects",
       title: "Projects",
+    },
+    {
+      link: "#courses",
+      title: "Courses",
     },
     {
       link: "#contact",

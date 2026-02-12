@@ -30,7 +30,7 @@ const Content = ({ text, link, tech }) => {
       {tech && (
         <>
           <p className="font-poppins font-normal text-dimWhite mt-3">
-            Tech Stack
+            Tech Stack:
           </p>
           <div className="mt-2 text-gray-500 capitalize dark:text-gray-300">
             <p className="flex sm:flex-row flex-wrap gap-5">

@@ -32,15 +32,15 @@ export const EXPERIENCES = [
   {
     organisation: "El Viejo Tango",
     logo: elviejotango,
-    link: "https://www.figma.com/design/SgxWRybyqRGQQ2IUUiJqZv/KioscoStock?node-id=0-1&p=f&t=3RFXLxMRTIAAhuGh-0",
+    link: "",
     positions: [
       {
         title: "Designer UX/UI",
-        duration: "April 2025 - Jul 2025",
+        duration: "April 2025 - Oct 2025",
         content: [
           {
             text: "I have worked on optimizing the digital experience for a client located in Argentina. For this client, I have Created initial layouts to define the interface architecture. Applied styles, colors, and graphic components aligned with the client's brand identity. Evaluated the user experience through testing and ongoing adjustments. For the development of the project, I used specialized tools such as Figma, Adobe Colors, and other essential tools for digital experience design. The methodology adopted was agile, allowing for rapid iterations and continuous improvements based on client and end-user feedback.",
-            link: "https://www.figma.com/design/SgxWRybyqRGQQ2IUUiJqZv/KioscoStock?node-id=0-1&p=f&t=3RFXLxMRTIAAhuGh-0",
+            link: "",
             tech: [
               {
                 id: "f-1",
@@ -61,15 +61,15 @@ export const EXPERIENCES = [
   {
     organisation: "ByTech",
     logo: Bytech,
-    link: "https://github.com/No-Country-simulation/c21-67-t-python-react.git",
+    link: "",
     positions: [
       {
         title: "Front End Developer & Designer UX/UI",
-        duration: "Sep 2024 - Nov 2024",
+        duration: "Sep 2024 - Mar 2025",
         content: [
           {
             text: "Worked for a technology ecommerce client located in Argentina For this client I have Interface design with Figma, defining color palettes, logos and fonts. Development of a website with fluid user experience and reusable components.",
-            link: "https://github.com/No-Country-simulation/c21-67-t-python-react.git",
+            link: "",
             tech: [
               {
                 id: "f-1",
@@ -115,7 +115,7 @@ export const EXPERIENCES = [
   {
     organisation: "Vinoteca",
     logo: flipkart,
-    link: "https://github.com/VinoVivo/VinoVivo-Frontend.git",
+    link: "",
     positions: [
       {
         title: "Front End Developer",
@@ -123,7 +123,7 @@ export const EXPERIENCES = [
         content: [
           {
             text: "Worked for a Wine cellar client located in Argentina For this client I have Use Figma to design the interface, defining color palettes, logo, typography, and structure. Develop a website where it offers a fluid user experience; Create reusable components, with a responsive design to adapt to different devices. To ensure the security of customer data, Keycloak was used. Work on  customizing each component and page of it so that it integrates perfectly with the website.",
-            link: "https://github.com/VinoVivo/VinoVivo-Frontend.git",
+            link: "",
             tech: [
               {
                 id: "f-1",
@@ -175,15 +175,15 @@ export const EXPERIENCES = [
   {
     organisation: "Tourism Blog",
     logo: tigre,
-    link: "https://github.com/Sol-Zito/Blog-de-Tigre.git",
+    link: "",
     positions: [
       {
         title: "Front End Developer & Designer UX/UI",
-        duration: "Apr 2024 - June 2024",
+        duration: "Feb 2024 - June 2024",
         content: [
           {
             text: "Worked for a tourism blog in Argentina For this client I have  I designed the initial blog layout, defining the structure of the pages and the layout of the topics. I considered how to organize the information so that users can easily navigate and at the same time, it is visually appealing and easy to read. I worked with a color palette inspired by the vibrant culture of Buenos Aires and we selected a typography that reflects the elegance and passion of the city. I implemented validations for forms, making sure that users can communicate effectively.",
-            link: "https://github.com/Sol-Zito/Blog-de-Tigre.git",
+            link: "",
             tech: [
               {
                 id: "f-1",
@@ -250,15 +250,15 @@ export const EXPERIENCES = [
   {
     organisation: "Digital booking",
     logo: acm,
-    link: "https://github.com/Sol-Zito/intrumentosMusicales.git",
+    link: "",
     positions: [
       {
         title: "Full Stack Developer",
-        duration: "May 2023 - July 2023",
+        duration: "May 2023 - Nov 2023",
         content: [
           {
             text: "Worked for an instrument ecommerce. For this client I have I established a color scheme and logo that reflects the harmony and diversity of the instruments. The application structure was carefully planned to offer intuitive navigation and a pleasant experience for users. I implemented a CRUD system to manage the available instruments. I developed components to display the rating of each instrument. I created validations for the rental forms, ensuring that users provide accurate information. I designed a calendar structure so that customers could easily select rental dates. I implemented search filters so that users could quickly find the instruments they needed",
-            link: "https://github.com/Sol-Zito/intrumentosMusicales.git",
+            link: "",
             tech: [
               {
                 id: "f-1",
